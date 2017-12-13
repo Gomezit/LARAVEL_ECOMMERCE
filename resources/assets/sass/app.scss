@@ -1,0 +1,141 @@
+
+// Variables
+@import "variables";
+
+.products-container{
+
+  .product{
+      margin-top: 1em;
+  }
+
+}
+
+.big-padding{
+
+  padding: 30px;
+}
+
+.large-padding{
+
+  padding: 10px 15px;
+}
+
+.top-space{
+
+  margin-top: 1em;
+
+}
+
+.blue-grey{
+
+  background-color: #3f51b5;
+}
+
+.white{
+
+  background-color: white;
+}
+
+.white-text{
+
+  color:white;
+}
+
+.table{
+
+  background-color: white;
+}
+
+.navbar{
+
+  margin-bottom: 0px;
+}
+
+.floating{
+
+  position: fixed;
+  bottom: 2em;
+  right: 2em;
+  z-index: 100;
+
+}
+
+.inline-block{
+
+  display: inline-block;
+
+}
+
+.no-transform{
+
+  text-transform: none;
+
+}
+
+.red-text {
+
+  color: rgb(200,50,50);
+
+}
+
+
+.no-padding {
+
+padding: 0px;
+
+}
+
+
+.no-margin{
+
+  margin: 0px;
+
+}
+
+
+.product{
+
+  width: 600px;
+  max-width: 100%;
+  padding: 1em;
+  position: relative;
+
+  h1{
+
+    padding-bottom: 10px;
+    border-bottom: solid 1px;
+  }
+
+  .actions{
+    right: 1em;
+    top:10px;
+
+  }
+}
+
+.absolute{
+
+    position: absolute;
+}
+
+.sale-data{
+
+  padding: 1em;
+  text-align: center;
+  border-right: solid 1px #222;
+
+}
+
+// status
+
+.creado{
+
+  background-color: green;
+
+}
+
+.product-avatar{
+
+    max-width: 100%;
+  
+}
