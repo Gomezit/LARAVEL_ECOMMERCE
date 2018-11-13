@@ -7,7 +7,7 @@ use App\ShoppingCart;
 use App\Paypal;
 use App\Order;
 
-
+//CONTROLADOR ENCARGADO DE LA GESTION DEL CARRITO DE COMPRAS
 
 class ShoppingCartsController extends Controller
 {

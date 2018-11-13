@@ -6,6 +6,9 @@ use Illuminate\Http\Request;
 use App\InShoppingCart;
 use App\ShoppingCart;
 
+//CONTROLADOR QUE SE ENCARGA DE ALMACENAR LOS PRODCUTOS EN EL CARRITO DE COMPRAS
+//YA SEA DE UNA PERSONA QUE ESTÁ LOGUEADA O NO
+
 class InShoppingCartsController extends Controller
 {
 

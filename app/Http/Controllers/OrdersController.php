@@ -5,6 +5,9 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Order;
 
+
+//CONTROLADOR QUE MUESTRA LAS ORDENES RECIENTES, DICHAS ORDENES TAMBIEN SE PUEDEN ACTUALIZAR
+
 class OrdersController extends Controller
 {
 

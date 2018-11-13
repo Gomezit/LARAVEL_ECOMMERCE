@@ -7,6 +7,8 @@ use App\ShoppingCart;
 use App\Paypal;
 use App\Order;
 
+//CONTROLADOR ENCARGADO DE COBRAR VIA PAYPAL EL CARRITO DE COMPRAS
+
 class PaymentsController extends Controller
 {
 
@@ -54,7 +56,7 @@ class PaymentsController extends Controller
 
         $order = Order::createFromPayPalResponse($response,$shopping_cart);
         $shopping_cart->approve();
-        
+
 
       }
 

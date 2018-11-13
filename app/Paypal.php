@@ -8,6 +8,11 @@ class Paypal
 
       private $_apiContext;
       private $shopping_cart;
+
+      //DATOS DE LA CUENTA CREADA EN PAYPAL TEST STORE
+      //https://developer.paypal.com
+      //alexandraseller@hotmail.com
+      //admin123
       private $_ClientId='AXLAmn1J0IWZHWq-mz5srWpDJ63WVZjevFO2uUy1E1C4m0cZ7bv9sSrt2YWUHpXjaDh1VwNd6O5_VFQr';
       private $_ClienteSecret='ELRL0XOEgIzkhduMozzRncKwSmkYnsuukVjibUCO6IAxMwG3-UP-1ifg6rKPZ6PrSYQDVH3_b7KGaKpg';
 

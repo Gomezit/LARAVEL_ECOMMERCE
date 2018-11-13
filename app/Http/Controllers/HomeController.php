@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
+//CONTROLADOR GENERADO POR LARAVEL PARA LA AUTENTICACIÓN
+
 class HomeController extends Controller
 {
     /**

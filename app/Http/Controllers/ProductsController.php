@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use App\Product;
 
+//CONTROLADOR ENCARGADO DE LA GESTION DE LOS PRODUCTOS(CREAR, LISTAR, ACTUALIZAR, BORRAR)
 
 class ProductsController extends Controller
 {
